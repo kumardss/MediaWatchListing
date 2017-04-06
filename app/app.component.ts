@@ -7,10 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent{
     onMediaItemDelete(mediaItem){
-
+        alert('Delete');
     };
     
-    firstMediaItem={
+    mediaItems=[
+        {
         id:1,
         name:"Resident Evil",
         medium:"Series",
@@ -18,5 +19,59 @@ export class AppComponent{
         year:2008,
         watchedOn:1232654846,
         isFavorite:false
-    };
+    },
+    {
+        id:1,
+        name:"Resident Evil",
+        medium:"Series",
+        category:"Jombie",
+        year:2008,
+        watchedOn:1232654846,
+        isFavorite:false
+    },
+    {
+        id:1,
+        name:"Resident Evil",
+        medium:"Series",
+        category:"Jombie",
+        year:2008,
+        watchedOn:1232654846,
+        isFavorite:false
+    },
+    {
+        id:1,
+        name:"Resident Evil",
+        medium:"Series",
+        category:"Jombie",
+        year:2008,
+        watchedOn:1232654846,
+        isFavorite:false
+    },
+    {
+        id:1,
+        name:"Resident Evil",
+        medium:"Series",
+        category:"Jombie",
+        year:2008,
+        watchedOn:1232654846,
+        isFavorite:false
+    },
+    {
+        id:1,
+        name:"Resident Evil",
+        medium:"Series",
+        category:"Jombie",
+        year:2008,
+        watchedOn:1232654846,
+        isFavorite:false
+    },
+    {
+        id:1,
+        name:"Resident Evil",
+        medium:"Series",
+        category:"Jombie",
+        year:2008,
+        watchedOn:1232654846,
+        isFavorite:false
+    }];
 }
